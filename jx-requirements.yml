@@ -10,11 +10,11 @@ spec:
     devEnvApprovers:
     - todo
     environmentGitOwner: todo
-    gitKind: github
-    gitName: github
-    gitServer: https://github.com
+    gitKind: bitbucketcloud
+    gitName: bbc
+    gitServer: https://bitbucket.org
     provider: kubernetes
-    registry: ghcr.io
+    registry: docker.io
   environments:
   - key: dev
   - key: staging
